@@ -1,6 +1,6 @@
 n = int(input("Digite a quantidade de números primos que deseja ver: "))
 primos = []
-num = 2
+num = 3
 while len(primos) < n:
     eh_primo = True
     for i in range(2, int(num**0.5) + 1):
